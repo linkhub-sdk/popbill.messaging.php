@@ -1,9 +1,6 @@
 <?php
 
 require_once 'PopbillMessaging.php';
-use Popbill\PopbillException;
-use Popbill\MessagingService;
-use Popbill\ENumMessageType;
 
 $PartnerID = 'TESTER';
 $SecretKey = 'okH3G1/WZ3w1PMjHDLaWdcWIa/dbTX3eGuqMZ5AvnDE=';
