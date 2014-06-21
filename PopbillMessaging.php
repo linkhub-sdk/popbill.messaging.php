@@ -127,6 +127,12 @@ class MessagingService extends PopbillBase {
     	
     }
     
+    //문자 관련 URL함수
+    public function GetURL($CorpNum ,$UserID, $TOGO) {
+    	$response = $this->executeCURL('/Message/?TG='.$TOGO,$CorpNum,$UserID);
+    	return $response->url;
+    }
+    
 }
 class ENumMessageType {
 	const SMS = 'SMS';
