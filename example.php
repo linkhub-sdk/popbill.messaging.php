@@ -2,11 +2,11 @@
 
 require_once 'PopbillMessaging.php';
 
-$PartnerID = 'TESTER';
+$LinkID = 'TESTER';
 $SecretKey = 'okH3G1/WZ3w1PMjHDLaWdcWIa/dbTX3eGuqMZ5AvnDE=';
 
 
-$MessagingService = new MessagingService($PartnerID,$SecretKey);
+$MessagingService = new MessagingService($LinkID,$SecretKey);
 
 $MessagingService->IsTest(true);
 
